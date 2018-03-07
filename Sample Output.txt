@@ -1,0 +1,134 @@
+Enter the name of the repo: cecs343
+C:\cecs343> Enter a command or help for a list of instructions: ls
+C:\cecs343
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:07:06
+	\mypt
+		\hello.txt
+			\0.txt 05/07/2016 19:05:55
+	\mypt2
+		\hello.txt
+			\156.txt 05/07/2016 12:38:02
+C:\cecs343> Enter a command or help for a list of instructions: mrg
+C:\cecs343> Enter the path of the external target project tree file: C:\\cecs343\\mypt2\\hello.txt\\156.txt
+C:\cecs343> Enter the repository project tree file: C:\\cecs343\\mypt\\hello.txt\\0.txt
+Path: C:\cecs343\mypt2\hello.txt
+Filename repo: 0_MR
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:07:06
+	\mypt
+		\hello.txt
+	\mypt2
+		\hello.txt
+			\0_MR.txt 05/07/2016 19:05:55
+			\156_MT.txt 05/07/2016 12:38:02
+ New file name: C:\cecs343\mypt2\hello.txt\56.txt
+C:\cecs343> Enter a command or help for a list of instructions: ls
+C:\cecs343
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:07:59
+	\mypt
+		\hello.txt
+	\mypt2
+		\hello.txt
+			\56.txt 05/07/2016 19:07:59
+C:\cecs343> Enter a command or help for a list of instructions: cd
+C:\cecs343> Enter the name of directory you want or enter '^' to go up to the parent folder: mypt
+C:\cecs343\mypt> Enter a command or help for a list of instructions: ci
+C:\cecs343\mypt> Enter the file and its path you want to check in: E:\\demo\\hello.txt
+C:\cecs343\mypt> Enter the target folder within the current directory or [curr] for the current directory: [curr]
+C:\cecs343\mypt> Enter a command or help for a list of instructions: ls
+C:\cecs343\mypt
+	\hello.txt
+		\209.txt 05/07/2016 19:17:28
+C:\cecs343\mypt> Enter a command or help for a list of instructions: cd
+C:\cecs343\mypt> Enter the name of directory you want or enter '^' to go up to the parent folder: ^
+C:\cecs343> Enter a command or help for a list of instructions: ls
+C:\cecs343
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:18:30
+	\mypt
+		\hello.txt
+			\209.txt 05/07/2016 19:17:28
+	\mypt2
+		\hello.txt
+			\56.txt 05/07/2016 19:07:59
+C:\cecs343> Enter a command or help for a list of instructions: co
+C:\cecs343> Enter the local file you want to check out: err
+C:\cecs343> Enter the check out location with its path: E:\\
+ Could not copy
+C:\cecs343> Enter a command or help for a list of instructions: ls
+C:\cecs343
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:19:10
+	\mypt
+		\hello.txt
+			\209.txt 05/07/2016 19:17:28
+	\mypt2
+		\hello.txt
+			\56.txt 05/07/2016 19:07:59
+C:\cecs343> Enter a command or help for a list of instructions: cd
+C:\cecs343> Enter the name of directory you want or enter '^' to go up to the parent folder: mypt
+C:\cecs343\mypt> Enter a command or help for a list of instructions: cd
+C:\cecs343\mypt> Enter the name of directory you want or enter '^' to go up to the parent folder: hello.txt
+C:\cecs343\mypt\hello.txt> Enter a command or help for a list of instructions: ls
+C:\cecs343\mypt\hello.txt
+	\209.txt 05/07/2016 19:17:28
+C:\cecs343\mypt\hello.txt> Enter a command or help for a list of instructions: co
+C:\cecs343\mypt\hello.txt> Enter the local file you want to check out: 209.txt
+C:\cecs343\mypt\hello.txt> Enter the check out location with its path: E:\\
+C:\cecs343\mypt\hello.txt> Enter a command or help for a list of instructions: ls
+C:\cecs343\mypt\hello.txt
+	\209.txt 05/07/2016 19:17:28
+C:\cecs343\mypt\hello.txt> Enter a command or help for a list of instructions: cd
+C:\cecs343\mypt\hello.txt> Enter the name of directory you want or enter '^' to go up to the parent folder: ^
+C:\cecs343\mypt> Enter a command or help for a list of instructions: cd
+C:\cecs343\mypt> Enter the name of directory you want or enter '^' to go up to the parent folder: ^
+C:\cecs343> Enter a command or help for a list of instructions: ls
+C:\cecs343
+	\manifests
+		\05-07-2016_Time-01-14-51.txt 05/07/2016 03:46:31
+		\05-07-2016_Time-03-47-24.txt 05/07/2016 03:50:58
+		\05-07-2016_Time-03-51-29.txt 05/07/2016 05:46:28
+		\05-07-2016_Time-05-46-39.txt 05/07/2016 10:35:15
+		\05-07-2016_Time-10-35-37.txt 05/07/2016 11:58:08
+		\05-07-2016_Time-11-58-50.txt 05/07/2016 11:59:13
+		\05-07-2016_Time-11-59-28.txt 05/07/2016 19:19:45
+	\mypt
+		\hello.txt
+			\209.txt 05/07/2016 19:17:28
+	\mypt2
+		\hello.txt
+			\56.txt 05/07/2016 19:07:59
+C:\cecs343> Enter a command or help for a list of instructions: exit
+VCS terminated...
